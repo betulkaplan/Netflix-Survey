@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Survey Page</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1>NETFLIX</h1>
+            <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+        </header>
+        <div id="survey_form">
+            <form action="###">
+                <label for="name">Name</label><br>
+                <input type="text" name="user_name" id="name" placeholder="Enter your name"><hr>
+                <label for="age">Age</label><br>
+                <input type="number" name="user_age" id="age" placeholder="Age"><hr>
+                <label for="email">Email</label><br>
+                <input type="email" name="user_email" id="email" placeholder="Enter your email"><hr>
+                <div>
+                    <label>Movie Type</label><br>
+                    <input type="checkbox" name="user_movieType" id="movie_type1" value="comedy">
+                    <label for="movie_type1">Comedy</label><br>
+                    <input type="checkbox" name="user_movieType" id="movie_type2" value="action">
+                    <label for="movie_type2">Action</label><br>
+                    <input type="checkbox" name="user_movieType" id="movie_type3" value="romance">
+                    <label for="movie_type3">Romance</label><br>
+                </div><hr>
+                <div>
+                    <label for="gender">Gender: </label> <br>
+                    <input type="radio" name="gender" id="gender-1" value="male">
+                    <label for="gender-1">Male</label><br>
+                    <input type="radio" name="gender" id="gender-2" value="male">
+                    <label for="gender-2">Female</label><br>
+                    <input type="radio" name="gender" id="gender-3" value="other" checked>
+                    <label for="gender-3">Other</label><br>
+                </div>
+                <div><hr>
+                    <label for="feed_back">Feed Back</label><br>
+                    <textarea name="user_feedBack" id="feed_back" cols="30" rows="10"></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
